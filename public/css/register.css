@@ -1,0 +1,321 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+    margin: 0px;
+}
+
+header {
+    background-color: #EAC926;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+ 
+.logo-busqueda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a{
+    padding: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.barra-de-busqueda{
+    display: flex;
+}
+
+main{
+    margin: 10px 0px;
+    padding: 0% 5%;
+}
+
+
+
+div.burguer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1259c3;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;  
+}
+
+.menu-hamburguesa{
+    display: flex;
+    justify-content: center;
+}
+.titulares{
+    font-size: 24px;
+}
+
+footer{
+    background-color: white;
+}
+
+div.simbolos{
+    color: #03264C;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.texto-footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    margin: 0px;
+}
+.logo {
+    width: 60%;
+}
+
+label {
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main fieldset {
+    width: 100%;
+}
+
+input{
+    margin: 7px;
+}
+
+fieldset{
+    border: 0px;
+}
+
+.datos-basicos fieldset input {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 100%;
+    border: 4px solid #ffffff;
+    border-radius: 7px;
+}
+
+main fieldset div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main fieldset div .espacio-input-label{
+    display: flex;
+    width: unset;
+}
+
+main fieldset div .espacio-radio{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+main section form button {
+    background-color: #EAC926;
+    border: #EAC926;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+main section form button:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.contenedor-datos-personales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+.div-datos-personales{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+span.espacio-radio input{
+    width: 15%;
+}
+
+.foto-perfil{
+    width: 90px;
+    height: 90px;
+}
+
+.article-foto-perfil{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+}
+
+.password fieldset input {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 100%;
+    border: 4px solid #ffffff;
+    border-radius: 7px;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botones fieldset button{
+    width: 120px;
+    height: 25px;
+    background-color: #ffffff;
+    border: 10px #676767;
+    border-radius: 10px;
+}
+
+form.busqueda{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.barra-busqueda {
+    background-color: white;
+    width: 230px;
+    height: 25px;
+    border-radius: 10px;
+    border: #ebebeb;
+}
+
+
+.intereses {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.paginas{
+    display: none;
+}
+
+@media (min-width:768px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-busqueda{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .paginas {
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 30%;
+    }
+    
+    div.burguer-menu{
+        display: none;
+    }
+    
+    .cuenta {
+        display: flex;
+        flex-direction: row;
+    }
+    .accesos-rapidos{
+        display: flex;
+        flex-direction: row;
+    }
+    .fondo-main{
+        width: 60%;
+    }
+    .contenedor-datos-personales{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .div-datos-personales{
+        display: flex;
+        flex-wrap: wrap;
+        width: 35%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width:1280px){
+    
+
+    main article {
+        width: 20%;
+    }
+    footer section {
+        display: flex;
+        flex-direction: row;
+
+    }
+    .logo {
+        width: 20%;
+    }
+   
+}
+
+
